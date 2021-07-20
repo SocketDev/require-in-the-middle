@@ -4,8 +4,9 @@
   "description": "Module to hook into the Node.js require function",
   "main": "index.js",
   "dependencies": {
+    "callsites": "^3.1.0",
     "debug": "^4.1.1",
-    "module-details-from-path": "^1.0.3",
+    "module-details-from-path": "github:SocketDev/module-details-from-path#top-level-default",
     "resolve": "^1.12.0"
   },
   "devDependencies": {
