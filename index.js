@@ -166,7 +166,7 @@ function Hook (modules, options, onrequire) {
           // this is a module-internal file
           if (internals === true) {
             // use the module-relative path to the file, prefixed by original module name
-            stat.name = stat.name + path.sep + path.relative(stat.basedir, filename)
+            // stat.name = stat.name + path.sep + path.relative(stat.basedir, filename)
             debug('preparing to process require of internal file: %s', stat.name)
           } else {
             debug('ignoring require of non-main module file: %s', res)
